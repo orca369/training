@@ -1,3 +1,4 @@
+
 public class Animal {
     private String type;
     private String size;
@@ -19,10 +20,10 @@ public class Animal {
     }
 
     public void move(String speed) {
-        System.out.println(type + "move" + speed);
+        System.out.println(type + " move " + speed);
 
     }
     public void makeNoise(){
-        System.out.println(type + "makes some Noise");
+        System.out.println(type + " makes some Noise");
     }
 }
