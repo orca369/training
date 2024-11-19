@@ -1,3 +1,4 @@
+import static java.nio.file.Files.walk;
 
 public class Dog extends Animal{
     private String earShape;
@@ -28,9 +29,14 @@ public class Dog extends Animal{
 
     public  void makeNoise(){
 
+
     }
     public  void move(String speed){
         super.move(speed);
         System.out.println("Dogs walk run and wag their tail");
+        if ( speed == "slow") {
+        walk();
+        wagTail()
+        }
     }
 }
