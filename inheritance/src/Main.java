@@ -9,5 +9,9 @@ public class Main {
         System.out.println( "Aziz PayCheck = " + aziz.collectPay());
         aziz.reitre();
         System.out.println( "Aziz PayCheck = " + aziz.collectPay());
+        HourlyEmployee Niki = new HourlyEmployee("Niki","06/09/1994","01/01/2017",200.0);
+        System.out.println( Niki);
+        System.out.println( "Niki PayCheck = $ " + Niki.collectPay());
+        System.out.println( "Niki get doble Pay $ = " + Niki.getDoublePay());
     }
 }
