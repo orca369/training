@@ -7,13 +7,9 @@ public class Employee extends Worker {
         this.hireDate = hireDate;
     }
 
-    public Employee(long employeeId, String hireDate) {
-        this.employeeId = employeeId;
-        this.hireDate = hireDate;
-    }
 
     public Employee(String name, String birthDate, long employeeId, String hireDate) {
-        super(name,birthDate);
+        super(name, birthDate);
         this.employeeId = employeeId;
         this.hireDate = hireDate;
     }
