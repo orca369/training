@@ -2,19 +2,19 @@ public class Worker {
 
     private String name;
     private String birthDate;
-    private String endDate;
+    protected String endDate;
 
     public Worker() {
 
     }
 
-    public Worker(String birthDate, String name) {
+    public Worker(String name,String birthDate ) {
         this.birthDate = birthDate;
         this.name = name;
     }
     public int getAge() {
         int currentYear = 2025;
-        int birthYear = Integer.parseInt(birthDate.substring(4));
+        int birthYear = Integer.parseInt(birthDate.substring(6)); // to convert the year to an int from  a substring of birth date
         return (currentYear - birthYear);
     }
     public double collectPay(){

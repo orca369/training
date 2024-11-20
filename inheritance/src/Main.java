@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Employee tim = new Employee("11/11/1985", "Tim", 77001, "01/01/2020");
-        System.out.println(tim);
+        Employee tim = new Employee("Tim","15/10/1985",70077,"12/12/2020");
+//        System.out.println(tim);
         System.out.println("Age = " + tim.getAge());
         System.out.println("Pay = "+ tim.collectPay());
 
